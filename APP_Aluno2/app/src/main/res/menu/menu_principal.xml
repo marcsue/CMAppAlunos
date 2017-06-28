@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_novo"
+        android:icon="@drawable/ic_novo"
+        android:showAsAction="always"
+        android:title = "@string/novo"
+        android2:title="@string/novo" />
+
+    <item
+        android:id="@+id/menu_mapa"
+        android:icon="@drawable/ic_mapa"
+        android:showAsAction="always"
+        android:title = "@string/Mapa"
+        android2:title="@string/Mapa" />
+
+
+
+</menu>

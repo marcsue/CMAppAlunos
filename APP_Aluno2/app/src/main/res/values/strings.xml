@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">APP_Aluno2</string>
+    <string name="app_name">MPAlunos</string>
     <string name="nome_aluno">Nome Aluno</string>
     <string name="add_aluno">Adicionar Aluno</string>
     <string name="foto_aluno">Foto Aluno</string>
+    <string name="novo">Novo</string>
+    <string name="Mapa">Mapa</string>
+    <string name="mais_opcoes">Mais opcoes</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="provas">Provas</string>
+    <string name="preferencias">Preferencias</string>
 </resources>

@@ -14,10 +14,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Thiago on 22/06/2017.
- */
-
 public class ListaAlunosActivity extends Activity {
 
     private final String TAG = "CADASTRO_ALUNO";
@@ -32,6 +28,7 @@ public class ListaAlunosActivity extends Activity {
     private ArrayAdapter<String> adapter;
 
     private int adapterLayout = android.R.layout.simple_list_item_1;
+
 
     protected void  onSaveInstnceState(Bundle outState){
 

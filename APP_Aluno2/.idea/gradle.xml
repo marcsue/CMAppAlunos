@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="/media/Arquivos/Documentos/UFU/2017-1/CM/CMAppAlunos/APP_Aluno2" />
+            <option value="/media/Arquivos/Documentos/UFU/2017-1/CM/CMAppAlunos/APP_Aluno2/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
