@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pizza Id"
+        android:id="@+id/textView5" />
+
+    <EditText android:id="@+id/pizza_id"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pizza Name"
+        android:id="@+id/tv_pizza_name" />
+
+    <EditText android:id="@+id/pizza_name"
+        android:inputType="text"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price"
+        android:id="@+id/tv_pizza_price" />
+
+    <EditText android:id="@+id/pizza_price"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+
+    <Button	  android:id="@+id/btnAdd"
+        android:text="Add"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <Button	  android:id="@+id/btnDelete"
+        android:text="Delete"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <Button	  android:id="@+id/btnEdit"
+        android:text="Edit"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <Button	  android:id="@+id/btnViewAll"
+        android:text="View All"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>
